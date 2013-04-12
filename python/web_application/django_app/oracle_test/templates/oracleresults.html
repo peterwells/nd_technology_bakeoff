@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<META NAME="Description" 
+    CONTENT="This page provides a site visitor with a way to contact a Doula 
+    for additional information.">
+</head>
+<html>
+
+<!--{% for story in story_list %}-->
+<!--<h2>-->
+  <!--<a href="{{ story.get_absolute_url }}">-->
+    <!--{{ story.headline|upper }}-->
+  <!--</a>-->
+<!--</h2>-->
+<!--<p>{{ story.tease|truncatewords:"100" }}</p>-->
+<!--{% endfor %}-->
+
+    <section class="instructions">
+        <strong>Oracle Test Results.</strong>
+    </section>
+    
+    <section id="send_email_form">
+        {% for term in stvterm_terms %}
+			<br />
+			Term Code: {{term.stvterm_code}}<br />
+			Term Description: {{term.stvterm_desc}}<br />
+		{% endfor %}
+    </section>
+
+</html>
+
+    
