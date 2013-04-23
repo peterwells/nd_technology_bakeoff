@@ -1,0 +1,23 @@
+require 'test/unit/assertions'
+begin
+  require 'win32console'
+rescue LoadError
+end
+
+class F
+  def first_func
+    puts "hello world"
+  end
+end
+
+a = F.new
+
+a.first_func()
+F.new(first_func)
+
+
+def test_first
+  assert_equal true, false
+end
+
+test_first()

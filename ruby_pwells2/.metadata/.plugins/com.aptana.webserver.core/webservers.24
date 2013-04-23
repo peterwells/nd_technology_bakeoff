@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<servers>
+<server host="0.0.0.0" port="3000" type="org.radrails.rails.railsServer">
+<name>web_application</name>
+</server>
+<server host="0.0.0.0" port="3000" project="C:/Users/pwells2/Documents/GitHub/nd_technology_bakeoff_vagrant_vm/nd_technology_bakeoff_code/ruby_pwells2/bakeoff_web_app" type="org.radrails.rails.railsServer">
+<name>bakeoff_web_app</name>
+</server>
+</servers>

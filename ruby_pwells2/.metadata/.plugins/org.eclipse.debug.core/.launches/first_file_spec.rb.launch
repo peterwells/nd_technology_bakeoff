@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="com.aptana.ruby.debug.core.launchConfigurationType">
+<stringAttribute key="com.aptana.ruby.debug.ATTR_FILE_NAME" value="C:\Users\pwells2\Documents\GitHub\nd_technology_bakeoff_vagrant_vm\nd_technology_bakeoff_code\ruby_pwells2\os_scripting\first_file_spec.rb"/>
+<stringAttribute key="com.aptana.ruby.debug.ATTR_WORKING_DIR" value="C:\Users\pwells2\Documents\GitHub\nd_technology_bakeoff_vagrant_vm\nd_technology_bakeoff_code\ruby_pwells2\os_scripting"/>
+<stringAttribute key="org.eclipse.debug.core.source_locator_id" value="com.aptana.ruby.debug.core.sourceLocator"/>
+</launchConfiguration>

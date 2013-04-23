@@ -1,0 +1,10 @@
+
+class F
+  def first_func
+    puts "hello world"
+  end
+end
+
+a = F.new
+
+a.first_func()

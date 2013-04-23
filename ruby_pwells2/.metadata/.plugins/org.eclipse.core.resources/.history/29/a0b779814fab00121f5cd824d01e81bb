@@ -1,0 +1,28 @@
+require "test/unit"
+
+
+class F
+  def first_func
+    puts "hello world"
+  end
+end
+
+a = F.new
+
+a.first_func()
+F.new.first_func()
+
+class First_Test_Class < Test::Unit::TestCase
+  
+  def initialize
+  end
+  
+  def test_first_success
+    assert_equal(true, true)
+  end
+  
+  def test_first_fail
+    assert_equal(true, false)
+  end
+  
+end

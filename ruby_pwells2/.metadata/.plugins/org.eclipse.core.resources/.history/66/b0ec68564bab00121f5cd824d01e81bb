@@ -1,0 +1,6 @@
+
+def first_func
+  puts "hello world"
+end
+
+first_func()

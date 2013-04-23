@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;os_scripting/main_runner&apos; to &apos;main_runner.rb&apos;" description="Rename resource &apos;main_runner&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="main_runner" name="main_runner.rb" stamp="1366639748822" updateReferences="true"/>
+</session>

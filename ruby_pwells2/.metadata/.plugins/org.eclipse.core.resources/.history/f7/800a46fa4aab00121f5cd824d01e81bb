@@ -1,0 +1,12 @@
+
+class Starter
+	def first_func
+		print "Hello World!"
+	end
+
+	def main
+		first_func()
+	end
+end
+
+main()

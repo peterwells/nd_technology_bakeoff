@@ -1,0 +1,9 @@
+require './first_file'
+
+describe F, "#first_func" do
+	it "prints hello world" do
+		obj = F.new
+		obj.first_func()
+		obj.print_txt.should eq("ello world")
+	end
+end 
